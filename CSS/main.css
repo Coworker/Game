@@ -1,9 +1,10 @@
 :root {
+    --overflow: visible;
     --position: relative;
 }
 
 .mainbody {
-    overflow: hidden;
+    overflow: visible;
     position: var(--position);
 }
 
