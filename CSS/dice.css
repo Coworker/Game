@@ -5,7 +5,7 @@ html {
 .dice {
     position: absolute;
     display: table;
-    left: 50%;
+    left: 80%;
     top: -40px;
     padding: 2rem;
     perspective: 600px;
