@@ -1,4 +1,8 @@
 window.onload = function() {
+    const root = document.querySelector(":root")
+    const style = getComputedStyle(root);
+    const position = style.getPropertyValue("--position");
+
     // find the element that you want to drag.
     var box1 = document.getElementById('box1');
 
@@ -7,12 +11,14 @@ window.onload = function() {
     of touch and assign it to box */
 
     box1.addEventListener('touchmove', function(e) {
+        root.style.setProperty("--position", "fixed");
         // grab the location of touch
         var touchLocation1 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
         box1.style.left = touchLocation1.pageX - 35 + 'px';
         box1.style.top = touchLocation1.pageY - 35 + 'px';
+
     })
 
     /* record the position of the touch
@@ -23,12 +29,14 @@ window.onload = function() {
         // current box position.
         var x1 = parseInt(box1.style.left);
         var y1 = parseInt(box1.style.top);
+        root.style.setProperty("--position", "relative");
     })
 
 
 
     var box2 = document.getElementById('box2');
     box2.addEventListener('touchmove', function(e) {
+        root.style.setProperty("--position", "fixed");
         var touchLocation2 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
@@ -40,29 +48,34 @@ window.onload = function() {
         // current box position.
         var x2 = parseInt(box2.style.left);
         var y2 = parseInt(box2.style.top);
+        root.style.setProperty("--position", "relative");
     })
 
 
 
     var box3 = document.getElementById('box3');
     box3.addEventListener('touchmove', function(e) {
+        root.style.setProperty("--position", "fixed");
         var touchLocation3 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
         box3.style.left = touchLocation3.pageX - 35 + 'px';
         box3.style.top = touchLocation3.pageY - 35 + 'px';
+
     })
 
     box3.addEventListener('touchend', function(e) {
         // current box position.
         var x3 = parseInt(box3.style.left);
         var y3 = parseInt(box3.style.top);
+        root.style.setProperty("--position", "relative");
     })
 
 
 
     var box4 = document.getElementById('box4');
     box4.addEventListener('touchmove', function(e) {
+        root.style.setProperty("--position", "fixed");
         var touchLocation4 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
@@ -74,11 +87,13 @@ window.onload = function() {
         // current box position.
         var x4 = parseInt(box4.style.left);
         var y4 = parseInt(box4.style.top);
+        root.style.setProperty("--position", "relative");
     })
 
 
     var box5 = document.getElementById('box5');
     box5.addEventListener('touchmove', function(e) {
+        root.style.setProperty("--position", "fixed");
         var touchLocation5 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
@@ -90,12 +105,14 @@ window.onload = function() {
         // current box position.
         var x5 = parseInt(box5.style.left);
         var y5 = parseInt(box5.style.top);
+        root.style.setProperty("--position", "relative");
     })
 
 
 
     var box6 = document.getElementById('box6');
     box6.addEventListener('touchmove', function(e) {
+        root.style.setProperty("--position", "fixed");
         var touchLocation6 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
@@ -107,12 +124,14 @@ window.onload = function() {
         // current box position.
         var x6 = parseInt(box6.style.left);
         var y6 = parseInt(box6.style.top);
+        root.style.setProperty("--position", "relative");
     })
 
 
 
     var box7 = document.getElementById('box7');
     box7.addEventListener('touchmove', function(e) {
+        root.style.setProperty("--position", "fixed");
         var touchLocation7 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
@@ -124,11 +143,13 @@ window.onload = function() {
         // current box position.
         var x7 = parseInt(box7.style.left);
         var y7 = parseInt(box7.style.top);
+        root.style.setProperty("--position", "relative");
     })
 
 
     var box8 = document.getElementById('box8');
     box8.addEventListener('touchmove', function(e) {
+        root.style.setProperty("--position", "fixed");
         var touchLocation8 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
@@ -140,11 +161,13 @@ window.onload = function() {
         // current box position.
         var x8 = parseInt(box8.style.left);
         var y8 = parseInt(box8.style.top);
+        root.style.setProperty("--position", "relative");
     })
 
 
     var box9 = document.getElementById('box9');
     box9.addEventListener('touchmove', function(e) {
+        root.style.setProperty("--position", "fixed");
         var touchLocation9 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
@@ -156,6 +179,7 @@ window.onload = function() {
         // current box position.
         var x9 = parseInt(box9.style.left);
         var y9 = parseInt(box9.style.top);
+        root.style.setProperty("--position", "relative");
     })
 
 
