@@ -1,0 +1,58 @@
+.map {
+    height: 100%;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.movediv {
+    position: absolute;
+    display: table;
+    width: 70px;
+    z-index: 9;
+    cursor: grab;
+}
+
+.fishka1 {
+    top: 2px;
+    left: 2px;
+}
+
+.fishka2 {
+    top: 2px;
+    left: 72px;
+}
+
+.fishka3 {
+    top: 2px;
+    left: 142px;
+}
+
+.fishka4 {
+    top: 2px;
+    left: 212px;
+}
+
+.fishka5 {
+    top: 2px;
+    left: 282px;
+}
+
+.fishka6 {
+    top: 2px;
+    left: 352px;
+}
+
+.fishka7 {
+    top: 2px;
+    left: 422px;
+}
+
+.fishka8 {
+    top: 2px;
+    left: 492px;
+}
+
+.fishka9 {
+    top: 2px;
+    left: 562px;
+}
