@@ -37,61 +37,82 @@
 </head>
 
 <body id="mainscroll" class="mainbody">
-    <img class="map" src="./Pictures/Render-11.png">
-    <img class="movediv fishka1" id="box1" src="./Pictures/p1.png">
-    <img class="movediv fishka2" id="box2" src="./Pictures/p2.png">
-    <img class="movediv fishka3" id="box3" src="./Pictures/p3.png">
-    <img class="movediv fishka4" id="box4" src="./Pictures/p4.png">
-    <img class="movediv fishka5" id="box5" src="./Pictures/p5.png">
-    <img class="movediv fishka6" id="box6" src="./Pictures/p6.png">
-    <img class="movediv fishka7" id="box7" src="./Pictures/p7.png">
-    <img class="movediv fishka8" id="box8" src="./Pictures/p8.png">
-    <img class="movediv fishka9" id="box9" src="./Pictures/p9.png">
-
-    <script src="./JS/mobiledrop.js" defer></script>
+    <div class="mainblock" id="blocksize">
 
 
 
-    <div class="dice" type="button" id="roll-button">
-        <ol class="die-list even-roll" data-roll="1" id="die-1">
-            <li class="die-item" data-side="1">
-                <span class="dot"></span>
-            </li>
-            <li class="die-item" data-side="2">
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </li>
-            <li class="die-item" data-side="3">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </li>
-            <li class="die-item" data-side="4">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </li>
-            <li class="die-item" data-side="5">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </li>
-            <li class="die-item" data-side="6">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </li>
-        </ol>
+        <img class="map" id="mapsize" src="./Pictures/Render-11.png">
+
+
+        <img class="movediv fishka1" id="box1" src="./Pictures/p1.png">
+        <img class="movediv fishka2" id="box2" src="./Pictures/p2.png">
+        <img class="movediv fishka3" id="box3" src="./Pictures/p3.png">
+        <img class="movediv fishka4" id="box4" src="./Pictures/p4.png">
+        <img class="movediv fishka5" id="box5" src="./Pictures/p5.png">
+        <img class="movediv fishka6" id="box6" src="./Pictures/p6.png">
+        <img class="movediv fishka7" id="box7" src="./Pictures/p7.png">
+        <img class="movediv fishka8" id="box8" src="./Pictures/p8.png">
+        <img class="movediv fishka9" id="box9" src="./Pictures/p9.png">
+
+
+
+        <div class="panel">
+            <img type="button" id="plusbutton" class="plusstyle" src="./Pictures/plus.png">
+            <img type="button" id="minusbutton" class="minusstyle" src="./Pictures/minus.png">
+
+            <script src="./JS/Mapscale.js"></script>
+            <script src="./JS/mobiledrop.js" defer></script>
+
+
+            <div class="dice" type="button" id="roll-button">
+                <ol class="die-list even-roll" data-roll="1" id="die-1">
+                    <li class="die-item" data-side="1">
+                        <span class="dot"></span>
+                    </li>
+                    <li class="die-item" data-side="2">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </li>
+                    <li class="die-item" data-side="3">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </li>
+                    <li class="die-item" data-side="4">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </li>
+                    <li class="die-item" data-side="5">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </li>
+                    <li class="die-item" data-side="6">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </li>
+                </ol>
+
+            </div>
+            <script src="./JS/app.js"></script>
+
+
+        </div>
+
+
+
+
+
 
     </div>
-    <script src="./JS/app.js"></script>
-
 
 
 </body>

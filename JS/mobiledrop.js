@@ -19,8 +19,8 @@ window.onload = function() {
         var touchLocation1 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
-        box1.style.left = touchLocation1.pageX - 35 + 'px';
-        box1.style.top = touchLocation1.pageY - 35 + 'px';
+        box1.style.left = touchLocation1.pageX - 60 + 'px';
+        box1.style.top = touchLocation1.pageY - 60 + 'px';
 
     })
 
@@ -45,8 +45,8 @@ window.onload = function() {
         var touchLocation2 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
-        box2.style.left = touchLocation2.pageX - 35 + 'px';
-        box2.style.top = touchLocation2.pageY - 35 + 'px';
+        box2.style.left = touchLocation2.pageX - 60 + 'px';
+        box2.style.top = touchLocation2.pageY - 60 + 'px';
     })
 
     box2.addEventListener('touchend', function(e) {
@@ -66,8 +66,8 @@ window.onload = function() {
         var touchLocation3 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
-        box3.style.left = touchLocation3.pageX - 35 + 'px';
-        box3.style.top = touchLocation3.pageY - 35 + 'px';
+        box3.style.left = touchLocation3.pageX - 60 + 'px';
+        box3.style.top = touchLocation3.pageY - 60 + 'px';
 
     })
 
@@ -88,8 +88,8 @@ window.onload = function() {
         var touchLocation4 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
-        box4.style.left = touchLocation4.pageX - 35 + 'px';
-        box4.style.top = touchLocation4.pageY - 35 + 'px';
+        box4.style.left = touchLocation4.pageX - 60 + 'px';
+        box4.style.top = touchLocation4.pageY - 60 + 'px';
     })
 
     box4.addEventListener('touchend', function(e) {
@@ -108,8 +108,8 @@ window.onload = function() {
         var touchLocation5 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
-        box5.style.left = touchLocation5.pageX - 35 + 'px';
-        box5.style.top = touchLocation5.pageY - 35 + 'px';
+        box5.style.left = touchLocation5.pageX - 60 + 'px';
+        box5.style.top = touchLocation5.pageY - 60 + 'px';
     })
 
     box5.addEventListener('touchend', function(e) {
@@ -129,8 +129,8 @@ window.onload = function() {
         var touchLocation6 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
-        box6.style.left = touchLocation6.pageX - 35 + 'px';
-        box6.style.top = touchLocation6.pageY - 35 + 'px';
+        box6.style.left = touchLocation6.pageX - 60 + 'px';
+        box6.style.top = touchLocation6.pageY - 60 + 'px';
     })
 
     box2.addEventListener('touchend', function(e) {
@@ -150,8 +150,8 @@ window.onload = function() {
         var touchLocation7 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
-        box7.style.left = touchLocation7.pageX - 35 + 'px';
-        box7.style.top = touchLocation7.pageY - 35 + 'px';
+        box7.style.left = touchLocation7.pageX - 60 + 'px';
+        box7.style.top = touchLocation7.pageY - 60 + 'px';
     })
 
     box7.addEventListener('touchend', function(e) {
@@ -170,8 +170,8 @@ window.onload = function() {
         var touchLocation8 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
-        box8.style.left = touchLocation8.pageX - 35 + 'px';
-        box8.style.top = touchLocation8.pageY - 35 + 'px';
+        box8.style.left = touchLocation8.pageX - 60 + 'px';
+        box8.style.top = touchLocation8.pageY - 60 + 'px';
     })
 
     box8.addEventListener('touchend', function(e) {
@@ -190,8 +190,8 @@ window.onload = function() {
         var touchLocation9 = e.targetTouches[0];
 
         // assign box new coordinates based on the touch.
-        box9.style.left = touchLocation9.pageX - 35 + 'px';
-        box9.style.top = touchLocation9.pageY - 35 + 'px';
+        box9.style.left = touchLocation9.pageX - 60 + 'px';
+        box9.style.top = touchLocation9.pageY - 60 + 'px';
     })
 
     box9.addEventListener('touchend', function(e) {
