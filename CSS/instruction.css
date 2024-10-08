@@ -28,12 +28,14 @@
     visibility: visible;
     position: absolute;
     margin: auto;
-    width: 70%;
+    width: 50%;
     top: 0%;
+    left: 30px;
     height: 50%;
     display: flex;
     justify-content: center;
     align-self: center;
+    z-index: 10;
 }
 
 .button1 {
