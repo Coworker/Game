@@ -4,12 +4,18 @@
 <head>
     <title>Game</title>
 
-    <link rel="shortcut icon" href="./Icons/logo-w.svg" />
+    <link rel="shortcut icon" href="./Pictures/MainIcon.webp" />
 
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta property="og:title" content="Доберись до Зала Царства">
+    <meta property="og:description" content="Гра для невеликої кампанії. Подолай перешкоди на шляху">
+    <meta property="og:image" content="./Pictures/PreviewRender.webp">
+    <meta property="og:url" content="URL of your link">
+    <meta property="og:type" content="website">
+    <title>Your Page Title</title>
 
 
 
@@ -23,13 +29,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="Stylesheet">
 
     <link rel="Stylesheet" href="./CSS/main.css">
-    <link rel="stylesheet" href="./CSS/dice.css">
     <link rel="stylesheet" href="./CSS/instruction.css">
+    <link rel="stylesheet" href="./CSS/dice.css">
+
 
 
     <script src="./JS/main-page.js" defer></script>
     <script src="./JS/mobiledrop.js" defer></script>
-    <script type="text/javascript" src="./JS/dragscroll.js"></script>
+    <!-- <script type="text/javascript" src="./JS/dragscroll.js"></script> -->
 
 
 
@@ -43,7 +50,7 @@
 
 
 
-        <img class="map" id="mapsize" src="./Pictures/Render-11.png">
+        <img class="map" id="mapsize" src="./Pictures/Render-11.webp">
 
 
         <img class="movediv fishka1" id="box1" src="./Pictures/p1.png">
@@ -121,18 +128,20 @@
         <div class="instruction">
             <div class="inst-block">
                 <div class="just">
-                    <h1>
+                    <h1 class="headtext">
                         Правила
                     </h1>
                 </div>
 
-                <h3>1. Ціль гри дійти до «Залу Царства» на зібрання.</h3>
-                <h3>2. Для ходу гравці по черзі кидають шестигранний кубик.</h3>
-                <h3>3. На дорозі є зелені, червоні та зелено-червоні кружечки. Зелені – дають бонус +1 хід (кидати ще раз кубик), червоні – штраф пропуск ходу, жовті – альтернативний маршрут, зелено-червоні – завдання.</h3>
-                <h3>4. Якщо ви зупинились на розвилці (жовтий кружок), наступний хід робите по альтернативному шляху (вузькій доріжці). </h3>
-                <h3>5. Якщо ви зупинились на зелено-червоному кругу, ви маєте виконати завдання. Успішно виконане завдання – бонус +1 хід, провалене завдання – штраф пропуск наступного ходу.</h3>
+                <h3 class="textinst">1. Ціль гри дійти до «Залу Царства» на зібрання.</h3>
+                <h3 class="textinst">2. Для ходу гравці по черзі кидають шестигранний кубик.</h3>
+                <h3 class="textinst">3. На дорозі є зелені, червоні та зелено-червоні кружечки. Зелені – дають бонус +1 хід (кидати ще раз кубик), червоні – штраф пропуск ходу, жовті – альтернативний маршрут, зелено-червоні – завдання.</h3>
+                <h3 class="textinst">4. Якщо ви зупинились на розвилці (жовтий кружок), наступний хід робите по альтернативному шляху (вузькій доріжці). </h3>
+                <h3 class="textinst">5. Якщо ви зупинились на зелено-червоному кругу, ви маєте виконати завдання. Успішно виконане завдання – бонус +1 хід, провалене завдання – штраф пропуск наступного ходу.</h3>
             </div>
-            <button id="okbutton" class="button1">Ok</button>
+            <div class="just">
+                <button id="okbutton" class="button1">Ok</button>
+            </div>
             <script src="./JS/Mapscale.js"></script>
 
 

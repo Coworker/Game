@@ -61,6 +61,11 @@
     cursor: grab;
 }
 
+.movediv:hover {
+    box-sizing: border-box;
+    width: 2.9%;
+}
+
 .fishka1 {
     top: 2px;
     left: 2px;
