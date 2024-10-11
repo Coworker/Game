@@ -11,7 +11,8 @@
 
 .headtext {
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
+    margin: 5px;
 }
 
 .just {
@@ -20,9 +21,10 @@
 }
 
 .textinst {
-    font-size: 500%;
+    font-size: 450%;
     font-weight: 500;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 .just1 {
@@ -30,7 +32,7 @@
     position: absolute;
     margin: auto;
     width: 50%;
-    top: 5%;
+    top: 4%;
     left: 30px;
     height: 50%;
     display: flex;
@@ -45,4 +47,5 @@
     padding-right: 20px;
     font-size: 300%;
     margin: 20px;
+    margin-top: 5px;
 }
